@@ -1,23 +1,9 @@
 import React, { Component } from "react";
-import {Text, View } from "react-native";
+import Routes from "./routes";
 
 class App extends Component {
   render() {
-    return (
-      <View style={styles.app}>
-        <Text>HelloWorld</Text>
-      </View>
-    );
+    return <Routes />;
   }
 }
-
-const styles = {
-  app: {
-    height: "100%",
-    width: "100%",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-};
-
 export default App;
