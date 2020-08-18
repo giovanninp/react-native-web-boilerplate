@@ -4,7 +4,7 @@
 
 ## MASTER -> Vanilla
 
-## BASIC -> Navigation
+## BASIC -> Navigation ( handmade navigation )
 
 ## FLUXED -> Navigation + Redux
 
