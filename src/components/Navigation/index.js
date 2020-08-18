@@ -38,7 +38,7 @@ function Navigation({
     <View style={styles.container}>
       {NavBar ? (
         <View style={styles.navigationContainer}>
-          <NavBar navigate={handleNavigation} />
+          <NavBar navigate={handleNavigation} actualScreen={actualScreen} />
         </View>
       ) : null}
       {!navChange ? (
@@ -62,7 +62,6 @@ const styles = {
   navigationContainer: {
     position: "absolute",
     width: "100%",
-    padding: 15,
     zIndex: 50,
     //selectPosition
   },
